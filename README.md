@@ -17,9 +17,13 @@ Usage
 Run the script (python HSV-Detection.py).
 ## Adjust the trackbars to define the lower and upper HSV bounds for the color you want to track.
 The script will display three windows:
+
 img: Shows the original video frame.
+
 mask: Displays the binary mask of the color within the specified HSV range.
+
 res: Displays the result of bitwise AND operation between the frame and the mask, highlighting the tracked color.
+
 Controls
 Use the trackbars to adjust the lower and upper HSV values to isolate the desired color.
 Press Esc to exit the program.
