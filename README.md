@@ -10,9 +10,9 @@ NumPy (numpy)
 Installation
 You can install OpenCV and NumPy using pip:
 
-''' bash
+``` bash
 pip install opencv-python numpy
-'''
+```
 Usage
 Run the script (python HSV-Detection.py).
 ## Adjust the trackbars to define the lower and upper HSV bounds for the color you want to track.
